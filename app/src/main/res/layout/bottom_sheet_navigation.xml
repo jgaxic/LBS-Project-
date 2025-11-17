@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Add a start navigation button -->
+    <!--
+    <Button
+        android:id="@+id/startNavigationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Navigation"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white" />
+        -->
+
+    <Button
+        android:id="@+id/buttonStartActiveGuidance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start activity"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/buttonFinishActiveGuidance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="finish activity"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white"
+        />
+
+</LinearLayout>

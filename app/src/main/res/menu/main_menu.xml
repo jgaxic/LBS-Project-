@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/SciTech"
+        android:icon="@drawable/ic_school"
+        android:title="คณะวิทยาศาสตร์และเทคโนโลยี"/>
+        <item android:id="@+id/Engineer"
+            android:icon="@drawable/ic_school"
+            android:title="คณะวิศวกรรมศาสตร์"/>
+        <item android:id="@+id/Business"
+            android:icon="@drawable/ic_school"
+            android:title="คณะบริหารธุรกิจ"/>
+        <item android:id="@+id/LibArt"
+            android:icon="@drawable/ic_school"
+            android:title="คณะศิลปศาสตร์"/>
+        <item android:id="@+id/Inter"
+            android:icon="@drawable/ic_school"
+            android:title="คณะนานาชาติ"/>
+        <item android:id="@+id/Eco"
+            android:icon="@drawable/ic_school"
+            android:title="คณะเทคโนโลยีคหกรรมศาสตร์"/>
+        <item android:id="@+id/industry"
+            android:icon="@drawable/ic_school"
+            android:title="คณะอุตสาหกรรมสิ่งทอ"/>
+        <item android:id="@+id/Education"
+            android:icon="@drawable/ic_school"
+            android:title="คณะครุศาสตร์อุตสหกรรม"/>
+        <item android:id="@+id/building36"
+            android:icon="@drawable/ic_school"
+            android:title="อาคาร 36"/>
+        <item android:id="@+id/building80"
+            android:icon="@drawable/ic_school"
+            android:title="อาคารเฉลิมพระเกียรติ 80 พรรษา"/>
+        <item android:id="@+id/building37"
+            android:icon="@drawable/ic_school"
+            android:title="อาคาร 37 (กองพัฒนาการศึกษา)"/>
+        <item android:id="@+id/buildingcreative"
+            android:icon="@drawable/ic_school"
+            android:title="อาคารปฎิบัติการเทคโนโลยีเชิงสร้างสรรค์"/>
+    </group>
+
+</menu>
